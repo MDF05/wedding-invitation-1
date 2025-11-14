@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "time": "08:00 - 09:00",
+      "title": "Akad Nikah",
+      "description": "Prosesi akad nikah di kediaman mempelai wanita",
+      "icon": "ring",
+      "location": "Kediaman Mempelai Wanita"
+    },
+    {
+      "time": "11:00 - 14:00",
+      "title": "Resepsi Pernikahan",
+      "description": "Syukuran pernikahan dan jamuan makan siang",
+      "icon": "celebration",
+      "location": "Ballroom Hotel Grand Luxury"
+    },
+    {
+      "time": "14:00 - 15:00",
+      "title": "Sesi Foto Bersama",
+      "description": "Foto bersama dengan keluarga dan tamu undangan",
+      "icon": "camera",
+      "location": "Garden Area Hotel"
+    }
+  ]
+}

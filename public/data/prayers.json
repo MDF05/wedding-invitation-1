@@ -1,0 +1,25 @@
+{
+  "verses": [
+    {
+      "arabic": "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً",
+      "latin": "Wa min āyātihi an khalaqa lakum min anfusikum azwājan litaskunū ilaihā wa ja'ala bainakum mawaddataw wa rahmah",
+      "translation": "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang.",
+      "surah": "Ar-Rum",
+      "verse": "21"
+    }
+  ],
+  "prayers": [
+    {
+      "arabic": "بَارَكَ اللهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
+      "latin": "Bārakallāhu laka wa bāraka 'alaika wa jama'a bainakumā fī khair",
+      "translation": "Semoga Allah memberkahimu di waktu bahagia dan memberkahimu di waktu susah, dan semoga Allah mempersatukan kalian berdua dalam kebaikan."
+    }
+  ],
+  "hadiths": [
+    {
+      "text": "النكاح سنتي فمن رغب عن سنتي فليس مني",
+      "translation": "Menikah adalah sunnahku, barangsiapa yang membenci sunnahku maka dia bukan termasuk golonganku.",
+      "source": "HR. Bukhari"
+    }
+  ]
+}
