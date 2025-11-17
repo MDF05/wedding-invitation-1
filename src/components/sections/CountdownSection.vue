@@ -1,7 +1,9 @@
 <template>
   <section ref="sectionRef" class="countdown-section py-16" aria-label="Countdown menuju hari bahagia">
     <!-- background gradient + subtle dot pattern to match hero -->
-    <div class=" absolute inset-0 pointer-events-none"></div>
+    <div
+      class=" absolute inset-0 pointer-events-none bg-gradient-to-b from-soft-pink via-ivory to-rose-200 rounded-4xl">
+    </div>
 
     <div class="container mx-auto px-6 relative z-10">
       <h2 class="mb-3 text-center text-4xl md:text-5xl font-great-vibes text-gold drop-shadow-lg">
@@ -62,7 +64,7 @@
           <p class="text-3xl md:text-4xl font-semibold text-deep-red font-cormorant">
             📅 Sabtu, 25 Desember 2024
           </p>
-          <p class="mt-2 text-lg text-gray-600 font-lora">🕗 08:00 WIB - Selesai</p>
+          <p class="mt-2 text-lg text-gray-600 font-lora text-center">🕗 08:00 WIB - Selesai</p>
         </div>
       </div>
     </div>

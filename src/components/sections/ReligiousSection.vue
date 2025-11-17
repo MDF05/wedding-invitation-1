@@ -1,5 +1,6 @@
 <template>
-  <section ref="sectionRef" class="religious-section py-20 bg-gradient-to-b from-ivory to-champagne">
+  <section ref="sectionRef"
+    class="religious-section py-20 bg-gradient-to-b from-soft-pink via-ivory to-rose-200 rounded-4xl relative overflow-hidden">
     <!-- Simplified Background Elements -->
     <div class="floating-elements">
       <div class="floating-element element-1"></div>

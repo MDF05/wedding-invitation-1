@@ -1,5 +1,6 @@
 <template>
-  <section ref="sectionRef" class="maps-section py-20 relative overflow-hidden">
+  <section ref="sectionRef"
+    class="maps-section py-20 relative overflow-hidden  bg-gradient-to-b from-soft-pink via-ivory to-rose-200 rounded-4xl">
     <!-- 3D Floating Petals -->
     <div class="petals-container pointer-events-none">
       <div v-for="n in 15" :key="n" class="petal"></div>
@@ -146,11 +147,11 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.maps-section {
+/* .maps-section {
   background-image:
     radial-gradient(circle at 10% 20%, rgba(212, 175, 55, 0.05), transparent 60%),
     radial-gradient(circle at 90% 80%, rgba(195, 135, 150, 0.08), transparent 60%);
-}
+} */
 
 /* Petals */
 .petal {

@@ -1,7 +1,7 @@
 <template>
-  <section ref="sectionRef" class="live-stream-section py-20 bg-white relative overflow-hidden">
+  <section ref="sectionRef" class="live-stream-section py-20  relative overflow-hidden ">
     <!-- 3D Background Elements -->
-    <div class="bg-elements">
+    <div class="bg-elements bg-gradient-to-b from-soft-pink via-ivory to-rose-50 rounded-4xl pointer-events-none">
       <div class="bg-element camera-1"></div>
       <div class="bg-element camera-2"></div>
       <div class="bg-element heart-1"></div>

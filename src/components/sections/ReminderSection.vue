@@ -1,8 +1,6 @@
 <template>
-  <section 
-    ref="sectionRef"
-    class="reminder-section py-20 bg-gradient-to-b from-soft-pink to-ivory"
-  >
+  <section ref="sectionRef"
+    class="reminder-section py-20 bg-gradient-to-b from-soft-pink via-ivory to-rose-200 rounded-4xl relative overflow-hidden">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl md:text-5xl font-great-vibes text-gold text-center mb-4">
         Pengingat Acara
@@ -14,12 +12,9 @@
       <div class="max-w-4xl mx-auto">
         <!-- Reminder Cards -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          <div 
-            v-for="(reminder, index) in reminders" 
-            :key="index"
+          <div v-for="(reminder, index) in reminders" :key="index"
             class="reminder-card wedding-frame bg-white p-6 rounded-xl text-center transform hover:scale-105 transition duration-300 cursor-pointer"
-            @click="handleReminderAction(reminder.action)"
-          >
+            @click="handleReminderAction(reminder.action)">
             <div class="text-4xl mb-4">{{ reminder.icon }}</div>
             <h3 class="text-xl font-cormorant text-deep-red font-semibold mb-3">
               {{ reminder.title }}
@@ -62,17 +57,13 @@
 
         <!-- Action Buttons -->
         <div class="flex flex-wrap gap-4 justify-center mt-8">
-          <button 
-            @click="downloadICS"
-            class="flex items-center gap-2 bg-gold text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition duration-300"
-          >
+          <button @click="downloadICS"
+            class="flex items-center gap-2 bg-gold text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition duration-300">
             <span>📥</span>
             <span>Download Undangan</span>
           </button>
-          <button 
-            @click="shareInvitation"
-            class="flex items-center gap-2 bg-forest-green text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition duration-300"
-          >
+          <button @click="shareInvitation"
+            class="flex items-center gap-2 bg-forest-green text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition duration-300">
             <span>📤</span>
             <span>Bagikan Undangan</span>
           </button>
@@ -81,10 +72,8 @@
     </div>
 
     <!-- Success Notification -->
-    <div 
-      v-if="showNotification"
-      class="fixed top-4 right-4 bg-gold text-white px-6 py-3 rounded-lg shadow-lg transition duration-300 z-50"
-    >
+    <div v-if="showNotification"
+      class="fixed top-4 right-4 bg-gold text-white px-6 py-3 rounded-lg shadow-lg transition duration-300 z-50">
       ✅ {{ notificationMessage }}
     </div>
   </section>
@@ -171,7 +160,7 @@ END:VCALENDAR`
   link.download = 'Pernikahan-Ahmad-Sari.ics'
   link.click()
   URL.revokeObjectURL(url)
-  
+
   showNotificationMessage('Berhasil ditambahkan ke kalender')
 }
 
@@ -186,7 +175,7 @@ const saveLocation = () => {
     const address = encodeURIComponent('Hotel Grand Luxury, Jl. Sudirman No. 123, Jakarta Selatan')
     window.open(`https://www.google.com/maps/search/?api=1&query=${address}`, '_blank')
   }
-  
+
   showNotificationMessage('Lokasi berhasil disimpan')
 }
 
@@ -196,7 +185,7 @@ const setReminder = () => {
     const eventTime = new Date('2024-12-25T10:00:00') // 1 hour before
     const now = new Date()
     const timeUntilEvent = eventTime.getTime() - now.getTime()
-    
+
     if (timeUntilEvent > 0) {
       setTimeout(() => {
         new Notification('Pengingat Pernikahan', {
@@ -205,7 +194,7 @@ const setReminder = () => {
         })
       }, timeUntilEvent)
     }
-    
+
     showNotificationMessage('Pengingat berhasil diaktifkan')
   } else if ('Notification' in window && Notification.permission !== 'denied') {
     Notification.requestPermission().then(permission => {
