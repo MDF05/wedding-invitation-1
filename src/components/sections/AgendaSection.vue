@@ -1,5 +1,6 @@
 <template>
-  <section ref="sectionRef" class="py-20 agenda-section bg-gradient-to-b from-soft-pink via-ivory to-rose-50">
+  <section ref="sectionRef"
+    class="py-20 agenda-section bg-gradient-to-b from-green-100 via-ivory to-cyan-900 rounded-4xl">
     <div class="container px-4 mx-auto">
       <h2 class="mb-4 text-4xl text-center md:text-5xl font-great-vibes text-gold">
         Agenda Acara

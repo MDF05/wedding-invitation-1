@@ -3,7 +3,7 @@
     class="relative flex items-center justify-center min-h-screen py-10 overflow-hidden text-center header-section">
 
     <!-- Animated Background -->
-    <div class="absolute inset-0 z-0 bg-gradient-to-br from-green-100 via-ivory to-cyan-800"></div>
+    <div class="absolute inset-0 z-0 bg-gradient-to-br from-cyan-800 via-ivory to-green-100 rounded-4xl"></div>
 
     <!-- Flower Confetti -->
     <div class="flower-confetti">
