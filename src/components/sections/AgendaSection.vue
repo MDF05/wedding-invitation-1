@@ -22,7 +22,7 @@
 
             <!-- Garis vertikal hitam ke nomor berikutnya -->
             <div v-if="index < events.length - 1"
-              class="absolute w-0.5 h-[calc(220%+3rem)] bg-gray-600 top-12 timeline-connector">
+              class="absolute w-0.5 h-[calc(550%+5vmax)] md:h-[calc(10vmax+10vmin)] lg:h-[calc(15vmin+5vmax)] bg-gray-600 top-12 timeline-connector">
             </div>
           </div>
 
